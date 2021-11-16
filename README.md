@@ -6,13 +6,13 @@ As a user, we should be able to log in using me username or email, and password.
 route, and showing his email on the header.
 2. If the email or email was incorrect, we must show an error message.
 
-Data we can use from https://reqres.in/ (you can find users emails in the list of users (for test you can give one: rachel.howell@reqres.in)
+Data we can use from https://reqres.in/ (you can find users emails in the list of users (for test you can give one: rachel.howell@reqres.in, byron.fields@reqres.in)
 
 When you clone the project:
 <br/>
-:zap: <b>npm install<b/> /--/ yarn  for installing libraries and dependencies.
+:zap: <b>npm install</b> /--/ <b>yarn</b>  for installing libraries and dependencies.
 <br/>
-:rocket: npm start /--/ yarn start  for launch
+:rocket: <b>npm start</b> /--/ <b>yarn start</b>  for launch
 
 Happy hacking!
 
