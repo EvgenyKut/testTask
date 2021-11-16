@@ -1,35 +1,18 @@
-import React, { useEffect, useState } from "react";
-import { Route, Switch, Redirect } from "react-router-dom";
+import React from "react";
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import Dashboard from "./pages/Dashboard";
-import Login from "./pages/Login";
+import DashboardPage from "./pages/DashboardPage";
+import LoginPage from "./pages/LoginPage";
 
 function App() {
-  const [token, setToken] = useState("");
-
-  useEffect(() => {
-    const test = localStorage.getItem("token");
-
-    test && setToken(test);
-  }, [token]);
 
   return (
     <div className="App">
-      {!token ? (
-        <Switch>
-          <Route path={"/login"}>
-            <Login />
-          </Route>
-          <Redirect to={"/login"} />
-        </Switch>
-      ) : (
-        <Switch>
-          <Route path={"/page"}>
-            <Dashboard />
-          </Route>
-          <Redirect to={"/page"} />
-        </Switch>
-      )}
+      <Routes>
+        <Route path="/login" element={<LoginPage />} />
+        <Route path="/page" element={<DashboardPage />} />
+        <Route path="*" element={<LoginPage />} />
+      </Routes>
     </div>
   );
 }
