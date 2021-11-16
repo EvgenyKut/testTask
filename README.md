@@ -9,7 +9,9 @@ route, and showing his email on the header.
 Data we can use from https://reqres.in/ (you can find users emails in the list of users (for test you can give one: michael.lawson@reqres.in)
 
 When you clone the project:
+<br/>
 npm install -- for installing libraries and dependencies.
+<br/>
 npm start -- for launch
 
 Happy hacking!
