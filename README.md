@@ -10,9 +10,9 @@ Data we can use from https://reqres.in/ (you can find users emails in the list o
 
 When you clone the project:
 <br/>
-**npm install -- for installing libraries and dependencies.
+** npm install -- for installing libraries and dependencies.
 <br/>
-**npm start -- for launch
+** npm start -- for launch
 
 Happy hacking!
 
