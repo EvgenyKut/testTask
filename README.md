@@ -17,5 +17,5 @@ When you clone the project:
 Happy hacking!
 
 
-:rotating_light: P.S. This system of acess only for test. 
+:rotating_light: P.S. This system of acсess only for test. 
 For real projects better to use HttpOnly system.
