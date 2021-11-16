@@ -6,7 +6,7 @@ As a user, we should be able to log in using me username or email, and password.
 route, and showing his email on the header.
 2. If the email or email was incorrect, we must show an error message.
 
-Data we can use from https://reqres.in/ (you can find users emails in the list of users (for test you can give one: rachel.howell@reqres.in, byron.fields@reqres.in)
+Data we can use from https://reqres.in/ (you can find users emails in the list of users (for test you can take one: rachel.howell@reqres.in, byron.fields@reqres.in)
 
 When you clone the project:
 <br/>
