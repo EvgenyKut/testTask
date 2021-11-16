@@ -10,12 +10,12 @@ Data we can use from https://reqres.in/ (you can find users emails in the list o
 
 When you clone the project:
 <br/>
-** npm install -- for installing libraries and dependencies.
+:zap: npm install -- for installing libraries and dependencies.
 <br/>
-** npm start -- for launch
+:rocket: npm start -- for launch
 
 Happy hacking!
 
 
-P.S. This system of acess only for test. 
+:rotating_light: P.S. This system of acess only for test. 
 For real projects better to use HttpOnly system.
