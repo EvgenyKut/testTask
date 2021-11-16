@@ -10,7 +10,7 @@ Data we can use from https://reqres.in/ (you can find users emails in the list o
 
 When you clone the project:
 <br/>
-:zap: npm install /--/ yarn  for installing libraries and dependencies.
+:zap: <b>npm install<b/> /--/ yarn  for installing libraries and dependencies.
 <br/>
 :rocket: npm start /--/ yarn start  for launch
 
