@@ -8,5 +8,12 @@ route, and showing his email on the header.
 
 Data we can use from https://reqres.in/ (you can find users emails in the list of users (for test you can give one: michael.lawson@reqres.in)
 
-When you clone the project you need use yarn/npm for instailing libraries and dependendecies.
-Next use yarn start/ npm start for launch
+When you clone the project:
+npm install -- for installing libraries and dependencies.
+npm start -- for launch
+
+Happy hacking!
+
+
+P.S. This system of acess only for test. 
+For real projects better to use HttpOnly system.
