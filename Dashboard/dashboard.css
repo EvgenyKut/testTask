@@ -1,0 +1,42 @@
+.dashboard-wrapper {
+  width: 100wh;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.dashboard-card {
+  height: 50vh;
+  width: 80vw;
+  background-color: white;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dashboard-header {
+  width: 100vw;
+  height: 60px;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+}
+
+.dashboard-header-block {
+  width: 40vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dashboard-header-block-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 100px;
+}
