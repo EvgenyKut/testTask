@@ -1,10 +1,10 @@
-Welcome to my test-task for Cashew!
+Welcome to my test-task!
 
 Business Requirements
-As a user, we should be able to log in using me username or email, and password.
+As a user, we should be able to log in using me username or email, and random password.
 1. If me username or password is correct, we will navigate the user to dashboard
 route, and showing his email on the header.
-2. If the email or email was incorrect, we must show an error message.
+2. If the email was incorrect, we must show an error message.
 
 Data we can use from https://reqres.in/ (you can find users emails in the list of users (for test you can take one: rachel.howell@reqres.in, byron.fields@reqres.in)
 
